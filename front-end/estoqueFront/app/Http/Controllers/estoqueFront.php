@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Http;
 
 class estoqueFront extends Controller
 {
-     private $urlApi = 'http://127.0.0.1:8000/api/produtos';
+     private $urlApi = 'https://apiestoque.webapptech.site/api/produtos';
      
      public function index()
     {
